@@ -28,4 +28,4 @@ L'application s'installe comme une app classique, avec son icône dédiée. 🎉
 
 ---
 
-💾 Pense à exporter régulièrement tes données (onglet **Sauvegarde**) : elles sont perdues si tu désinstalles l'app.
+💾 Pense à exporter régulièrement tes données (tout en bas de l'onglet **Réglages**) : elles sont perdues si tu désinstalles l'app.

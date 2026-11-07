@@ -1,8 +1,11 @@
-# ⏱️ WorkTracker — Pointeuse
+# ⏱️ WorkTracker — Pointeuse PWA
 
-Application de suivi du temps de travail pour téléphone : enregistre tes heures, calcule ton salaire, gère tes congés payés et garde l'historique de tes journées. Disponible en 9 langues et 8 monnaies. Tes données restent sur ton téléphone.
+**WorkTracker** est une application web progressive (PWA) de suivi du temps de travail, pensée pour une utilisation mobile rapide et sans friction. Enregistre tes heures, calcule ton salaire automatiquement, gère tes congés payés et garde un historique complet de tes journées, directement depuis ton téléphone. Disponible en 9 langues et 8 monnaies. Tes données restent sur ton téléphone.
 
-🔗 **Ouvrir l'app** : [https://worktracker-two.vercel.app](https://worktracker-two.vercel.app)
+🔗 **Accéder à l'app** : [https://worktracker-two.vercel.app](https://worktracker-two.vercel.app)
+
+![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-Vercel-black?logo=vercel&logoColor=white)
+![Made with React](https://img.shields.io/badge/made%20with-React-61DAFB?logo=react&logoColor=white)
 
 ---
 
@@ -36,13 +39,40 @@ Application de suivi du temps de travail pour téléphone : enregistre tes heure
 
 ---
 
+## 📱 Les 5 onglets
+
+| Onglet | Description |
+|---|---|
+| 📆 **Calendrier** | Saisie manuelle des heures de travail (arrivée, départ, pause). |
+| 📊 **Stats** | Statistiques de la semaine en cours (lundi → dimanche), du mois en cours et de n'importe quel mois au choix, avec calcul automatique du salaire estimé selon le taux horaire. |
+| 📋 **Historique** | Liste chronologique de toutes les sessions enregistrées, avec durée et temps de pause pour chaque journée. |
+| ☀️ **Congés** | Soldes N-1 et N calculés d'après les jours saisis (droit français), pose de congés et soldes de départ à recopier depuis la fiche de paie. |
+| ⚙️ **Réglages** | Langue, monnaie, thème clair / sombre, style (Original, Simpson, Minecraft, Cyberpunk) et, tout en bas, sauvegarde : export et import des données au format JSON. |
+
+---
+
+## ✨ Fonctionnalités principales
+
+- 📝 **Saisie manuelle des heures** avec gestion des pauses (en minutes)
+- 🌍 **9 langues** : français, anglais, allemand, espagnol, portugais, italien, néerlandais, polonais, turc
+- 💱 **8 monnaies** : € $ £ ₺ CHF zł R$ CA$ (le symbole change, pas les montants)
+- 🎤 **Commande vocale** (français) : code présent mais désactivée pour l'instant (`VOICE_ENABLED` dans `src/App.jsx`)
+- 📊 **Statistiques** par semaine, par mois ou pour un mois au choix
+- 🌙 **Horaires de nuit** gérés (ex. 22h → 6h, la fin est comptée le lendemain)
+- 💰 **Calcul automatique du salaire** selon ton taux horaire
+- ☀️ **Congés payés** : soldes N-1 et N estimés en jours ouvrables ou ouvrés, congés affichés sur le calendrier
+- 💾 **Sauvegarde et restauration** des données via export/import de fichier JSON
+- 🌗 **Thème clair / sombre** et 4 styles au choix
+
+---
+
 ## 📲 Installation sur mobile
 
 ### 🍏 iPhone (Safari)
 
 1. Ouvre [https://worktracker-two.vercel.app](https://worktracker-two.vercel.app) dans **Safari**
-2. Appuie sur l'icône **Partage** (le carré avec une flèche vers le haut)
-3. Sélectionne **Sur l'écran d'accueil**
+2. Appuie sur l'icône **Partage** (le carré avec une flèche vers le haut) 🔗
+3. Sélectionne **Sur l'écran d'accueil** ➕
 4. Confirme en appuyant sur **Ajouter**
 
 L'application apparaît alors comme une app native sur ton écran d'accueil. 🎉
@@ -56,6 +86,30 @@ L'application apparaît alors comme une app native sur ton écran d'accueil. �
 
 L'application s'installe comme une app classique, avec son icône dédiée. 🎉
 
+💾 Pense à exporter régulièrement tes données (tout en bas de l'onglet **Réglages**) : elles sont perdues si tu désinstalles l'app.
+
 ---
 
-💾 Pense à exporter régulièrement tes données (tout en bas de l'onglet **Réglages**) : elles sont perdues si tu désinstalles l'app.
+## 🛠️ Stack technique
+
+- ⚛️ **React** — interface utilisateur
+- ⚡ **Vite** — build tool et serveur de développement
+- 📱 **PWA** (Progressive Web App) — installable, utilisable hors ligne
+- ▲ **Vercel** — hébergement et déploiement continu
+
+---
+
+## 🚀 Développement local
+
+Le code source est dans un dépôt privé.
+
+```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+# Build de production
+npm run build
+```

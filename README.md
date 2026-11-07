@@ -56,7 +56,6 @@
 - 📝 **Saisie manuelle des heures** avec gestion des pauses (en minutes)
 - 🌍 **9 langues** : français, anglais, allemand, espagnol, portugais, italien, néerlandais, polonais, turc
 - 💱 **8 monnaies** : € $ £ ₺ CHF zł R$ CA$ (le symbole change, pas les montants)
-- 🎤 **Commande vocale** (français) : code présent mais désactivée pour l'instant (`VOICE_ENABLED` dans `src/App.jsx`)
 - 📊 **Statistiques** par semaine, par mois ou pour un mois au choix
 - 🌙 **Horaires de nuit** gérés (ex. 22h → 6h, la fin est comptée le lendemain)
 - 💰 **Calcul automatique du salaire** selon ton taux horaire

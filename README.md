@@ -1,6 +1,6 @@
 # ⏱️ WorkTracker — Pointeuse
 
-Application de suivi du temps de travail pour téléphone : enregistre tes heures, calcule ton salaire et garde l'historique de tes journées. Disponible en 9 langues et 8 monnaies. Tes données restent sur ton téléphone.
+Application de suivi du temps de travail pour téléphone : enregistre tes heures, calcule ton salaire, gère tes congés payés et garde l'historique de tes journées. Disponible en 9 langues et 8 monnaies. Tes données restent sur ton téléphone.
 
 🔗 **Ouvrir l'app** : [https://worktracker-two.vercel.app](https://worktracker-two.vercel.app)
 

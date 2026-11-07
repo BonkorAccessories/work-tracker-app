@@ -4,9 +4,6 @@
 
 🔗 **Accéder à l'app** : [https://worktracker-two.vercel.app](https://worktracker-two.vercel.app)
 
-![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-Vercel-black?logo=vercel&logoColor=white)
-![Made with React](https://img.shields.io/badge/made%20with-React-61DAFB?logo=react&logoColor=white)
-
 ---
 
 ## 👀 Aperçu de l'app

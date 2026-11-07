@@ -86,29 +86,3 @@ L'application apparaît alors comme une app native sur ton écran d'accueil. �
 L'application s'installe comme une app classique, avec son icône dédiée. 🎉
 
 💾 Pense à exporter régulièrement tes données (tout en bas de l'onglet **Réglages**) : elles sont perdues si tu désinstalles l'app.
-
----
-
-## 🛠️ Stack technique
-
-- ⚛️ **React** — interface utilisateur
-- ⚡ **Vite** — build tool et serveur de développement
-- 📱 **PWA** (Progressive Web App) — installable, utilisable hors ligne
-- ▲ **Vercel** — hébergement et déploiement continu
-
----
-
-## 🚀 Développement local
-
-Le code source est dans un dépôt privé.
-
-```bash
-# Installer les dépendances
-npm install
-
-# Lancer le serveur de développement
-npm run dev
-
-# Build de production
-npm run build
-```

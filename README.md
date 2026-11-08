@@ -10,12 +10,12 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/calendrier.png" alt="Écran Calendrier : taux horaire, calendrier du mois et saisie des heures" width="240"><br><b>Calendrier</b></td>
+    <td align="center"><img src="screenshots/calendrier.png" alt="Écran Calendrier : taux horaire, calendrier du mois avec jours fériés en rouge et congés, saisie des heures" width="240"><br><b>Calendrier</b></td>
     <td align="center"><img src="screenshots/statistiques.png" alt="Écran Statistiques : heures et salaire estimé par semaine, mois et période" width="240"><br><b>Statistiques</b></td>
     <td align="center"><img src="screenshots/historique.png" alt="Écran Historique : liste des journées avec heures et montant" width="240"><br><b>Historique</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/conges.png" alt="Écran Congés : jours restants, congés N-1 et N, pose d'un congé" width="240"><br><b>Congés payés</b></td>
+    <td align="center"><img src="screenshots/conges.png" alt="Écran Congés : jours restants, congés N-1 et N, pose d'un congé, d'un arrêt maladie ou d'une autre absence" width="240"><br><b>Congés payés</b></td>
     <td align="center"><img src="screenshots/reglages.png" alt="Écran Réglages : langue, monnaie, thème et style" width="240"><br><b>Réglages</b></td>
     <td align="center"><img src="screenshots/sauvegarde.png" alt="Bas de l'écran Réglages : exporter et importer une sauvegarde" width="240"><br><b>Sauvegarde</b></td>
   </tr>

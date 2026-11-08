@@ -40,7 +40,7 @@
 
 | Onglet | Description |
 |---|---|
-| 📆 **Calendrier** | Saisie manuelle des heures de travail (arrivée, départ, pause). |
+| 📆 **Calendrier** | Saisie manuelle des heures de travail (arrivée, départ, pause). Jours fériés en rouge et congés affichés. |
 | 📊 **Stats** | Statistiques de la semaine en cours (lundi → dimanche), du mois en cours et de n'importe quel mois au choix, avec calcul automatique du salaire estimé selon le taux horaire. |
 | 📋 **Historique** | Liste chronologique de toutes les sessions enregistrées, avec durée et temps de pause pour chaque journée. |
 | ☀️ **Congés** | Soldes N-1 et N calculés d'après les jours saisis (droit français), pose de congés et soldes de départ à recopier depuis la fiche de paie. |
@@ -58,7 +58,7 @@
 - 💰 **Calcul automatique du salaire** selon ton taux horaire
 - ☀️ **Congés payés** : soldes N-1 et N estimés en jours ouvrables ou ouvrés, congés affichés sur le calendrier
 - 🤒 **Arrêts maladie et absences** : l'arrêt maladie fait acquérir 2 jours par mois (24 max), l'accident du travail, la maternité ou la paternité comptent comme du travail
-- 📅 **Jours fériés** de métropole, d'Alsace-Moselle et d'outre-mer
+- 📅 **Jours fériés** de métropole, d'Alsace-Moselle ou d'outre-mer selon ta région : en rouge sur le calendrier, avec leur nom quand tu appuies dessus
 - 💾 **Sauvegarde et restauration** des données via export/import de fichier JSON
 - 🌗 **Thème clair / sombre** et 4 styles au choix
 - ⏱️ **Écran de démarrage** animé avec le logo de l'app, aux couleurs du style choisi

@@ -65,6 +65,25 @@
 
 ---
 
+## 🗓️ Historique des versions
+
+| Version | Date | Nouveautés |
+|---|---|---|
+| **2.1** | 8 nov. 2026 | Arrêts maladie et autres absences dans le calcul des congés, jours fériés d'Alsace-Moselle et d'outre-mer, jours fériés en rouge sur le calendrier avec leur nom |
+| 2.0.1 | 8 nov. 2026 | Écran de démarrage masqué si les animations sont réduites sur le téléphone |
+| **2.0** | 7 nov. 2026 | Congés payés (soldes N-1 et N), nouveau logo, écran de démarrage, sauvegarde déplacée dans Réglages, commande vocale retirée |
+| 1.4.1 | 25 oct. 2026 | Traductions corrigées, onglets raccourcis |
+| **1.4** | 25 oct. 2026 | 9 langues et 8 monnaies |
+| **1.3** | 24 oct. 2026 | Styles Simpson, Minecraft et Cyberpunk, dernière pause mémorisée |
+| **1.2** | 11 oct. 2026 | Nouveau design : police, icônes, animations discrètes |
+| 1.1.1 | 7 oct. 2026 | Corrections : commande vocale, pause négative, export sur iPhone |
+| **1.1** | 19 sept. 2026 | Thème clair / sombre, commande vocale |
+| **1.0** | 30 mai 2026 | Première version : saisie des heures et calcul du salaire |
+
+Le numéro de version s'affiche tout en bas de l'onglet **Réglages**.
+
+---
+
 ## 📲 Installation sur mobile
 
 ### 🍏 iPhone (Safari)

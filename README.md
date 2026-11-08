@@ -57,6 +57,8 @@
 - 🌙 **Horaires de nuit** gérés (ex. 22h → 6h, la fin est comptée le lendemain)
 - 💰 **Calcul automatique du salaire** selon ton taux horaire
 - ☀️ **Congés payés** : soldes N-1 et N estimés en jours ouvrables ou ouvrés, congés affichés sur le calendrier
+- 🤒 **Arrêts maladie et absences** : l'arrêt maladie fait acquérir 2 jours par mois (24 max), l'accident du travail, la maternité ou la paternité comptent comme du travail
+- 📅 **Jours fériés** de métropole, d'Alsace-Moselle et d'outre-mer
 - 💾 **Sauvegarde et restauration** des données via export/import de fichier JSON
 - 🌗 **Thème clair / sombre** et 4 styles au choix
 - ⏱️ **Écran de démarrage** animé avec le logo de l'app, aux couleurs du style choisi

@@ -15,7 +15,7 @@
     <td align="center"><img src="screenshots/historique.png" alt="Écran Historique : liste des journées avec heures et montant" width="240"><br><b>Historique</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/conges.png" alt="Écran Congés : jours restants, congés N-1 et N, pose d'un congé, d'un arrêt maladie ou d'une autre absence" width="240"><br><b>Congés payés</b></td>
+    <td align="center"><img src="screenshots/conges.png" alt="Écran Congés : compte à rebours avant les vacances, jours restants, congés N-1 et N, pose d'un congé, d'un arrêt maladie ou d'une autre absence" width="240"><br><b>Congés payés</b></td>
     <td align="center"><img src="screenshots/reglages.png" alt="Écran Réglages : langue, monnaie, thème et style" width="240"><br><b>Réglages</b></td>
     <td align="center"><img src="screenshots/sauvegarde.png" alt="Bas de l'écran Réglages : exporter et importer une sauvegarde" width="240"><br><b>Sauvegarde</b></td>
   </tr>
@@ -23,14 +23,18 @@
 
 *Captures réalisées avec des données d'exemple.*
 
-## 🎨 4 styles au choix, en clair ou en sombre
+## 🎨 6 styles au choix, en clair ou en sombre
 
 <table>
   <tr>
     <td align="center"><img src="screenshots/style-original.png" alt="Style Original en thème clair" width="180"><br><b>Original</b></td>
     <td align="center"><img src="screenshots/style-simpson.png" alt="Style Les Simpson en thème clair" width="180"><br><b>Les Simpson</b></td>
     <td align="center"><img src="screenshots/style-minecraft.png" alt="Style Minecraft en thème sombre" width="180"><br><b>Minecraft</b></td>
+  </tr>
+  <tr>
     <td align="center"><img src="screenshots/style-cyberpunk.png" alt="Style Cyberpunk en thème sombre" width="180"><br><b>Cyberpunk</b></td>
+    <td align="center"><img src="screenshots/style-gta6.png" alt="Style GTA 6 en thème sombre : titres en néon rose" width="180"><br><b>GTA 6</b></td>
+    <td align="center"><img src="screenshots/style-marvel.png" alt="Style Marvel en thème clair : fond rouge" width="180"><br><b>Marvel</b></td>
   </tr>
 </table>
 
@@ -43,8 +47,8 @@
 | 📆 **Calendrier** | Saisie manuelle des heures de travail (arrivée, départ, pause). Jours fériés en rouge et congés affichés. |
 | 📊 **Stats** | Statistiques de la semaine en cours (lundi → dimanche), du mois en cours et de n'importe quel mois au choix, avec calcul automatique du salaire estimé selon le taux horaire. |
 | 📋 **Historique** | Liste chronologique de toutes les sessions enregistrées, avec durée et temps de pause pour chaque journée. |
-| ☀️ **Congés** | Soldes N-1 et N calculés d'après les jours saisis (droit français), pose de congés et soldes de départ à recopier depuis la fiche de paie. |
-| ⚙️ **Réglages** | Langue, monnaie, thème clair / sombre, style (Original, Simpson, Minecraft, Cyberpunk) et, tout en bas, sauvegarde : export et import des données au format JSON. |
+| ☀️ **Congés** | Soldes N-1 et N calculés d'après les jours saisis (droit français), compte à rebours avant les prochaines vacances, pose de congés et soldes de départ à recopier depuis la fiche de paie. |
+| ⚙️ **Réglages** | Langue, monnaie, thème clair / sombre, style (Original, Simpson, Minecraft, Cyberpunk, GTA 6, Marvel) et, tout en bas, sauvegarde : export et import des données au format JSON. |
 
 ---
 
@@ -57,10 +61,11 @@
 - 🌙 **Horaires de nuit** gérés (ex. 22h → 6h, la fin est comptée le lendemain)
 - 💰 **Calcul automatique du salaire** selon ton taux horaire
 - ☀️ **Congés payés** : soldes N-1 et N estimés en jours ouvrables ou ouvrés, congés affichés sur le calendrier
-- 🤒 **Arrêts maladie et absences** : l'arrêt maladie fait acquérir 2 jours par mois (24 max), l'accident du travail, la maternité ou la paternité comptent comme du travail
+- 🤒 **Arrêts maladie et absences** : l'arrêt maladie fait acquérir 2 jours par mois (24 max), l'accident du travail, la maternité ou la paternité comptent comme du travail ; un arrêt pendant les congés payés rend les jours couverts
+- ⏳ **Compte à rebours** avant tes prochains congés payés, en jours, heures, minutes et secondes
 - 📅 **Jours fériés** de métropole, d'Alsace-Moselle ou d'outre-mer selon ta région : en rouge sur le calendrier, avec leur nom quand tu appuies dessus
 - 💾 **Sauvegarde et restauration** des données via export/import de fichier JSON
-- 🌗 **Thème clair / sombre** et 4 styles au choix
+- 🌗 **Thème clair / sombre** et 6 styles au choix, chacun avec sa propre police
 - ⏱️ **Écran de démarrage** animé avec le logo de l'app, aux couleurs du style choisi
 
 ---
@@ -69,6 +74,7 @@
 
 | Version | Date | Nouveautés |
 |---|---|---|
+| **2.2** | 11 nov. 2026 | Compte à rebours avant les vacances, arrêt maladie possible pendant les congés payés (jours rendus), styles GTA 6 et Marvel, police de chaque style dans toute l'app |
 | **2.1** | 8 nov. 2026 | Arrêts maladie et autres absences dans le calcul des congés, jours fériés d'Alsace-Moselle et d'outre-mer, jours fériés en rouge sur le calendrier avec leur nom |
 | 2.0.1 | 8 nov. 2026 | Écran de démarrage masqué si les animations sont réduites sur le téléphone |
 | **2.0** | 7 nov. 2026 | Congés payés (soldes N-1 et N), nouveau logo, écran de démarrage, sauvegarde déplacée dans Réglages, commande vocale retirée |

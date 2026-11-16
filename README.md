@@ -74,6 +74,7 @@
 
 | Version | Date | Nouveautés |
 |---|---|---|
+| 2.2.1 | 16 nov. 2026 | Le bouton de l'onglet Congés affiche « Arrêt maladie » ou « Autre absence » selon le type choisi |
 | **2.2** | 11 nov. 2026 | Compte à rebours avant les vacances, arrêt maladie possible pendant les congés payés (jours rendus), styles GTA 6 et Marvel, police de chaque style dans toute l'app |
 | **2.1** | 8 nov. 2026 | Arrêts maladie et autres absences dans le calcul des congés, jours fériés d'Alsace-Moselle et d'outre-mer, jours fériés en rouge sur le calendrier avec leur nom |
 | 2.0.1 | 8 nov. 2026 | Écran de démarrage masqué si les animations sont réduites sur le téléphone |
